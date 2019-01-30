@@ -26,7 +26,8 @@
     'data': [
         # 'security/ir.model.access.csv',
         'templates/templates.xml',
-        'views/odooacademy.xml'
+        'views/odooacademy.xml',
+        'views/partner.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

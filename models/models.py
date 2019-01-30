@@ -16,6 +16,7 @@ class Course(models.Model):
     session_ids = fields.One2many('odooacademy.session', 'course_id', string="Sessions")
     
 
+
 # Sessions
 class Session(models.Model):
     _name = 'odooacademy.session'
@@ -28,3 +29,12 @@ class Session(models.Model):
 
     instructor_id = fields.Many2one('res.partner', string = "Instructor")
     course_id = fields.Many2one('odooacademy.course', ondelete = 'cascade', string = "Course", required = True) 
+    attendee_ids = fields.Many2many('res.partner', string="Attendees")
+
+class Partner(models.Model):
+    _inherit = 'res.partner'
+
+    instructor = fields.Boolean("Instructor", default=False)
+
+    session_ids = fields.Many2many('odooacademy.session', string="Attended Sessions", readonly= True)
+    
