@@ -1,0 +1,25 @@
+<odoo> 
+    <record id="object0" model="odooacademy.course">
+        <field name="name">Course 0</field>
+        <field name="description">Course 0's description 
+        Can have multiples lines
+        </field>
+    </record>
+
+    <record id="object1" model="odooacademy.course">
+        <field name="name">Object 1</field>
+    </record>
+
+    <record id="object2" model="odooacademy.course">
+        <field name="name">Object 2</field>
+        <field name="description">Course 2 description</field>
+    </record>
+
+    <record id="object3" model="odooacademy.course">
+        <field name="name">Object 3</field>
+    </record>
+
+    <record id="object4" model="odooacademy.course">
+        <field name="name">Object 4</field>
+    </record>
+</odoo>
