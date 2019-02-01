@@ -1,5 +1,0 @@
-id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
-access_odooacademy,odooacademy,odooacademy.session,model_odooacademy,odooacademy.course,1,0,0,0
-E.g. access_odooacademy_course,access_odooacademy_course,model_odooacademy_course,base.group_user,1,0,0,0
-E.g. access_odooacademy_session,access_odooacademy_session,model_odooacademy_session,base.group_user,1,0,0,0
-E.g. access_odooacademy,access_odooacademy,model_odooacademy,base.group_user,1,0,0,0

@@ -1,0 +1,377 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* odooacademy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-01 13:59+0000\n"
+"PO-Revision-Date: 2019-02-01 13:59+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.view_odooacad_session_kanban
+msgid "<br/>\n"
+"                                    Start date:"
+msgstr "<br/>\n"
+"                                    Start date:"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.view_odooacad_session_kanban
+msgid "<br/>\n"
+"                                    duration:"
+msgstr "<br/>\n"
+"                                    duration:"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_active
+msgid "Active"
+msgstr "Ativo"
+
+#. module: odooacademy
+#: model:ir.actions.act_window,name:odooacademy.launch_session_wizard
+#: model:ir.ui.view,arch_db:odooacademy.wizard_form_view
+msgid "Add Attendees"
+msgstr "Add Attendees"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_res_partner_session_ids
+#: model:ir.model.fields,field_description:odooacademy.field_res_users_session_ids
+msgid "Attended Sessions"
+msgstr "Attended Sessions"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_attendee_ids
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_wizard_attendee_ids
+msgid "Attendees"
+msgstr "Attendees"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_attendee_count
+msgid "Attendees count"
+msgstr "Attendees count"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.wizard_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_color
+msgid "Color"
+msgstr "Color"
+
+#. module: odooacademy
+#: model:ir.ui.menu,name:odooacademy.configuration_menu
+msgid "Configuration"
+msgstr "Configuração"
+
+#. module: odooacademy
+#: model:ir.model,name:odooacademy.model_res_partner
+msgid "Contact"
+msgstr "Contato"
+
+#. module: odooacademy
+#: model:ir.actions.act_window,name:odooacademy.contact_list_action
+#: model:ir.ui.menu,name:odooacademy.contact_menu
+msgid "Contacts"
+msgstr "Contacts"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_course_id
+msgid "Course"
+msgstr "Course"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.course_form_view
+msgid "Course Form"
+msgstr "Course Form"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.courses_tree_view
+msgid "Course Tree"
+msgstr "Course Tree"
+
+#. module: odooacademy
+#: model:ir.actions.act_window,name:odooacademy.course_list_action
+#: model:ir.ui.menu,name:odooacademy.courses_menu
+msgid "Courses"
+msgstr "Courses"
+
+#. module: odooacademy
+#: model:ir.actions.act_window,help:odooacademy.course_list_action
+msgid "Create the first course"
+msgstr "Create the first course"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_course_create_uid
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_create_uid
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_create_uid
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_wizard_create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_course_create_date
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_create_date
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_create_date
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_wizard_create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.view_odooacad_session_kanban
+msgid "Delete"
+msgstr "Delete"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_course_description
+#: model:ir.ui.view,arch_db:odooacademy.course_form_view
+msgid "Description"
+msgstr "Descrição"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_course_display_name
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_display_name
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_display_name
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_wizard_display_name
+msgid "Display Name"
+msgstr "Exibir Nome"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_duration
+msgid "Duration"
+msgstr "Duration"
+
+#. module: odooacademy
+#: model:ir.model.fields,help:odooacademy.field_odooacademy_session_duration
+msgid "Duration in days"
+msgstr "Duration in days"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_hours
+msgid "Duration in hours"
+msgstr "Duration in hours"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_end_date
+msgid "End Date"
+msgstr "End Date"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.session_form_view
+msgid "General"
+msgstr "Geral"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.course_search_view
+msgid "Group By"
+msgstr "Agrupar Por"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_course_id
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_id
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_id
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_wizard_id
+msgid "ID"
+msgstr "ID"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_instructor_id
+#: model:ir.model.fields,field_description:odooacademy.field_res_partner_instructor
+#: model:ir.model.fields,field_description:odooacademy.field_res_users_instructor
+msgid "Instructor"
+msgstr "Instructor"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy___last_update
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_course___last_update
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session___last_update
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_wizard___last_update
+msgid "Last Modified on"
+msgstr "Última Modificação em"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_course_write_uid
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_write_uid
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_wizard_write_uid
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_write_uid
+msgid "Last Updated by"
+msgstr "Última Atualização por"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_course_write_date
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_write_date
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_wizard_write_date
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_write_date
+msgid "Last Updated on"
+msgstr "Última Atualização em"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.course_search_view
+msgid "My Courses"
+msgstr "My Courses"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_name
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_name
+msgid "Name"
+msgstr "Nome"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_seats
+msgid "Number of Seats"
+msgstr "Number of Seats"
+
+#. module: odooacademy
+#: model:res.groups,name:odooacademy.group_manager
+msgid "OdooAcademy / Manager"
+msgstr "OdooAcademy / Manager"
+
+#. module: odooacademy
+#: model:ir.model,name:odooacademy.model_odooacademy_course
+msgid "OdooAcademy Courses"
+msgstr "OdooAcademy Courses"
+
+#. module: odooacademy
+#: model:ir.model,name:odooacademy.model_odooacademy_session
+msgid "OdooAcademy Sessions"
+msgstr "OdooAcademy Sessions"
+
+#. module: odooacademy
+#: model:ir.ui.menu,name:odooacademy.main_odooacademy_menu
+#: model:ir.ui.menu,name:odooacademy.odooacademy_menu
+msgid "Open Academy"
+msgstr "Open Academy"
+
+#. module: odooacademy
+#: model:ir.model,name:odooacademy.model_odoo_academy
+msgid "Open Academy Courses"
+msgstr "Open Academy Courses"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.odooacademy_session_graph_view
+msgid "Participations by Courses"
+msgstr "Participations by Courses"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.course_form_view
+msgid "Registered sessions"
+msgstr "Registered sessions"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_course_responsible_id
+#: model:ir.ui.view,arch_db:odooacademy.course_search_view
+msgid "Responsible"
+msgstr "Responsible"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.session_form_view
+msgid "Schedule"
+msgstr "Schedule"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_wizard_session_ids
+msgid "Session"
+msgstr "Session"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.session_calendar_view
+msgid "Session Calendar"
+msgstr "Session Calendar"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.session_form_view
+msgid "Session Form"
+msgstr "Session Form"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.session_gantt_view
+msgid "Session Gantt"
+msgstr "Session Gantt"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.session_tree_view
+msgid "Session Tree"
+msgstr "Session Tree"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.view_odooacad_session_kanban
+msgid "Session name:"
+msgstr "Session name:"
+
+#. module: odooacademy
+#: model:ir.actions.act_window,name:odooacademy.session_list_action
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_course_session_ids
+#: model:ir.ui.menu,name:odooacademy.session_menu
+#: model:ir.ui.view,arch_db:odooacademy.course_form_view
+#: model:ir.ui.view,arch_db:odooacademy.partner_instructor_form_view
+msgid "Sessions"
+msgstr "Sessions"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_start_date
+msgid "Start Date"
+msgstr "Start Date"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.wizard_form_view
+msgid "Subscribe"
+msgstr "Subscribe"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_session_taken_seats
+msgid "Taken seats"
+msgstr "Taken seats"
+
+#. module: odooacademy
+#: model:res.partner.category,name:odooacademy.teacher1
+msgid "Teacher / Level 1"
+msgstr "Teacher / Level 1"
+
+#. module: odooacademy
+#: model:res.partner.category,name:odooacademy.teacher2
+msgid "Teacher / Level 2"
+msgstr "Teacher / Level 2"
+
+#. module: odooacademy
+#: sql_constraint:odooacademy.course:0
+msgid "The course title must be unique"
+msgstr "The course title must be unique"
+
+#. module: odooacademy
+#: sql_constraint:odooacademy.course:0
+msgid "The title of the course should not be the description"
+msgstr "The title of the course should not be the description"
+
+#. module: odooacademy
+#: model:ir.model.fields,field_description:odooacademy.field_odooacademy_course_name
+msgid "Title"
+msgstr "Título"
+
+#. module: odooacademy
+#: model:ir.model,name:odooacademy.model_odooacademy_wizard
+msgid "Wizard: Quick Registration of Attendees to Sessions"
+msgstr "Wizard: Quick Registration of Attendees to Sessions"
+
+#. module: odooacademy
+#: model:ir.model,name:odooacademy.model_odooacademy
+msgid "odooacademy"
+msgstr "odooacademy"
+
+#. module: odooacademy
+#: model:ir.model,name:odooacademy.model_openacademy_openacademy
+msgid "openacademy.openacademy"
+msgstr "openacademy.openacademy"
+
+#. module: odooacademy
+#: model:ir.ui.view,arch_db:odooacademy.wizard_form_view
+msgid "or"
+msgstr "or"
+

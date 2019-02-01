@@ -1,4 +1,4 @@
-from odoo import models, fields, api, exceptions
+from odoo import models, fields, api, exceptions, _
 from datetime import timedelta
 class odooacademy(models.Model):
     _name = 'odooacademy'
@@ -22,9 +22,9 @@ class Course(models.Model):
         copied_count = self.search_count(
             [('name', '=like', u"Copy of {}%".format(self.name))])
         if not copied_count:
-            new_name = u"Copy of {}".format(self.name)
+            new_name = _(u"Copy of {}").format(self.name)
         else:
-            new_name = u"Copy of{} ({})".format(self.name, copied_count)
+            new_name = _(u"Copy of{} ({}))".format(self.name, copied_count)
 
         default['name'] = new_name
         return super(Course, self).copy(default)
@@ -73,15 +73,15 @@ class Session(models.Model):
         if self.seats < 0:
             return{
                 'warning':{
-                    'title':"Incorrect 'seats' value",
-                    'message': "The number of available seats may not be negative",
+                    'title':_("Incorrect 'seats' value"),
+                    'message': _("The number of available seats may not be negative"),
                 },
             },
         if self.seats < len(self.attendee_ids):
             return{
                 'warning': {
-                    'title':'Too many attendees',
-                    'message': "Increase seats or remove excess attendees",
+                    'title':_("Too many attendees"),
+                    'message': _("Increase seats or remove excess attendees"),
                 },
             }
     @api.depends('start_date', 'duration')
@@ -121,3 +121,19 @@ class Partner(models.Model):
 
     session_ids = fields.Many2many('odooacademy.session', string="Attended Sessions", readonly= True)
     
+class Wizard(models.TransientModel):
+    _name = 'odooacademy.wizard'
+    _description = "Wizard: Quick Registration of Attendees to Sessions"
+
+    def _default_sessions(self):
+        return self.env['odooacademy.session'].browse(self._context.get('active_ids'))
+
+
+    session_ids = fields.Many2many('odooacademy.session', string = "Session", required=True, default = _default_sessions)
+    attendee_ids = fields.Many2many('res.partner', string = "Attendees")
+
+    @api.multi 
+    def subscribe(self):
+            for session in self.session_ids:
+                session.attendee_ids |= self.attendee_ids
+            return{} 
