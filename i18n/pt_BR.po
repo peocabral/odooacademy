@@ -348,7 +348,7 @@ msgstr "The course title must be unique"
 #. module: odooacademy
 #: sql_constraint:odooacademy.course:0
 msgid "The title of the course should not be the description"
-msgstr "The title of the course should not be the description"
+msgstr " O Titulo do curso não pode ser a mesma que a descrição"
 
 #. module: odooacademy
 #: model:ir.model.fields,field_description:odooacademy.field_odooacademy_course_name
